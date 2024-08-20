@@ -1,0 +1,69 @@
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/christianknab/grocery-inventory # Full URL
+    # image:
+    #   path: "portfolio.png" # path: assets/project/
+    #   alt: "A screenshot of the portfolio page"
+    date: Developing
+    title: Grocery Inventory System
+    summary: Grocery inventory system solution.
+    description: Creating a solution to manage at home food inventory to reduce time it takes to create grocery lists.
+    contents:
+        # - title: 1. Portfolio Page
+        #   image:
+        #     path: portfolio.png
+        #     alt: "A screenshot of the portfolio page"
+        #   description: <li>Concise portfolio page</li>
+        #     <li>Recent publications</li>
+        #     <li>Projects</li>
+        # - title: 2. Optional Blog Functionality
+        #   image:
+        #     path: home.png
+        #     alt: "A screenshot of the blog page"
+        #   description: <li>Responsive Layout</li>
+        #     <li>Tags</li> 
+        #     <li>Pagination</li>
+        # - title: 3. Tags Page
+        #   image:
+        #     path: tags.png
+        #     alt: "A screenshot of the tags page"
+        #   description: <li>Responsive Layout</li> 
+        #     <li>Tags</li> 
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://peergrader.vercel.app/ # Full URL
+    image:
+      path: "peergrader.png"
+      alt: "peergrader login png"
+    date: April &ndash; June 2024
+    title: Peergrader
+    summary: Peergrading software
+    description: Software to grade and provide peers feedback on assignments.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://apps.apple.com/us/app/eko/id6470772031?platform=iphone # Full URL
+    image:
+      path: "eko_logo_1024x1024.png"
+      alt: "the eko app logo"
+    date: July 2023 &ndash; March 2024
+    title: Eko
+    summary: A Threads/X-like social media app
+    description: A fully functioning social media app where friends can connect and share GIFs!
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://apps.apple.com/us/app/ucsc-menu/id1670523487?platform=iphone # Full URL
+    image:
+      path: "menu_app_poster.png"
+      alt: "the poster for the menu app"
+      align_top: true
+    date: January &ndash; December 2023
+    title: UCSC Menu App
+    summary: A menu app for UCSC students
+    description: Displays a categorized menu for every dining hall at UC Santa Cruz!
