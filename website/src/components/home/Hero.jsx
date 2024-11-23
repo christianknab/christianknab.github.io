@@ -23,7 +23,7 @@ const Hero = () => {
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Christian Knab</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-800 dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl">
-            Frontend Developer building beautiful, responsive web applications with modern technologies.
+            Student at UC Santa Cruz building full stack applications
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Link
