@@ -1,5 +1,7 @@
 # Project 1
 
+Website in progress...
+
 ## Overview
 This is a full-stack web application built with React and Node.js. It demonstrates modern web development practices and includes features like authentication, real-time updates, and database integration.
 

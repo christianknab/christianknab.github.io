@@ -7,13 +7,13 @@ const FeaturedProjects = () => {
   const featuredProjects = projects.filter(project => project.featured);
 
   return (
-    <section id="projects" className="py-16 bg-white">
+    <section id="projects" className="py-16 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold">Featured Projects</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Featured Projects</h2>
           <Link 
             to="/projects"
-            className="text-blue-600 hover:text-blue-800"
+            className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-500"
           >
             View All Projects
           </Link>
