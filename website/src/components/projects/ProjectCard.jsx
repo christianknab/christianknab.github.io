@@ -37,15 +37,16 @@ const ProjectCard = ({ project }) => {
             <ExternalLink className="ml-1 w-4 h-4" />
           </a>
         )}
-        <a
-          href={project.github}
-          className="inline-flex items-center text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={(e) => e.stopPropagation()}
-        >
-          GitHub <Github className="ml-1 w-4 h-4" />
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            className="inline-flex items-center text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+          >
+            GitHub <Github className="ml-1 w-4 h-4" />
+          </a>)}
       </div>
     </Link>
   );

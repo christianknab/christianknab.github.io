@@ -56,14 +56,14 @@ const ProjectPage = () => {
           >
             {project.linkText}<ExternalLink className="ml-1 w-4 h-4" />
           </a>
-          <a
+          {project.github && (<a
             href={project.github}
             className="inline-flex items-center text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub <Github className="ml-1 w-4 h-4" />
-          </a>
+          </a>)}
         </div>
       </div>
 
