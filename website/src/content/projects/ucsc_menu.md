@@ -19,6 +19,7 @@ In fact, we are currently working and testing a new feature - integrating Cbord 
 - Firebase
 - Google Cloud
     - Go -> web scraper
+- Google Ads
 
 ## Key Features
 - Summarizes menu data from https://nutrition.sa.ucsc.edu/
@@ -30,12 +31,20 @@ In fact, we are currently working and testing a new feature - integrating Cbord 
 ## Currently working on...
 - Get Mobile Integration!
 
-The f
+I reverse engineered the GetMobile app with the help of one of Jason Antwi-Appah's repositories, inspecting the network traffic, and looking searching through the decompiled APK.
 
-## Challenges and Solutions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Here is the current design flow:
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/christianknab/christianknab.github.io/blob/main/website/src/images/ucsc-menu-app/get1.PNG?raw=true" alt="image" width="200"/>
+  <img src="https://github.com/christianknab/christianknab.github.io/blob/main/website/src/images/ucsc-menu-app/get2.PNG?raw=true" alt="image" width="200"/>
+  <img src="https://github.com/christianknab/christianknab.github.io/blob/main/website/src/images/ucsc-menu-app/get3.PNG?raw=true" alt="image" width="200"/>
+</div>
 
-## Results
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We will integrate this with our slug points calculator so that we can help students more precisely use their slug points (dining hall money).
+
+## Conclusion
+All the artwork was created by me with input from my friends. Below, you can see the original poster we made.
+
+I am excited to continue integrating more features in the app, getting feedback, and helping out my fellow slugs! :)
 
 ![image](https://github.com/christianknab/christianknab.github.io/blob/main/website/src/images/ucsc-menu-app/support-us.png?raw=true)

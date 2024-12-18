@@ -14,7 +14,7 @@ export const projects = [
     title: "UCSC Menu App",
     description: "Dining Hall app for UC Santa Cruz Students",
     content: ucsc_menu,
-    tags: ["Flutter", "Firebase", "Google Cloud", "Go"],
+    tags: ["Flutter", "Firebase", "Google Cloud", "Go", "Google ADs"],
     link: "https://apps.apple.com/us/app/ucsc-menu/id1670523487?platform=iphone",
     linkText: "App Store",
     github: "https://github.com/nunibye/Menu-App",
@@ -28,6 +28,8 @@ export const projects = [
     description: "Family messaging app",
     content: ucsc_menu,
     tags: ["Flutter", "Supabase", "FCM", "Google Analytics"],
+    link: "https://testflight.apple.com/join/r9rpwEcG",
+    linkText: "Test Flight",
     github: "",
     featured: true,
     image: snail_icon
