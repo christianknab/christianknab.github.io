@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
 import { projects } from '../data/projects';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 
 const ProjectPage = () => {
   const { slug } = useParams();
@@ -70,13 +72,27 @@ const ProjectPage = () => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full md:h-full object-cover rounded-lg mb-8"
+          className="w-auto max-w-full max-h-[calc(100vh/3)] h-auto object-contain rounded-lg mb-8"
         />
       )}
 
       {/* Project Content */}
       <div className="prose prose-lg max-w-none dark:prose-invert">
-        <Markdown>{project.content}</Markdown>
+        <Markdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          components={{
+            img: ({ node, ...props }) => (
+              <img
+                {...props}
+                className="rounded-lg shadow-lg border dark:border-gray-700"
+                alt={props.alt || 'Project Image'}
+              />
+            ),
+          }}
+        >
+          {project.content}
+        </Markdown>
       </div>
     </article>
   );

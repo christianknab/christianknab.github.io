@@ -9,6 +9,19 @@ import snail_icon from '../images/snail_icon.png';
 
 export const projects = [
   {
+    id: 5,
+    slug: "ucsc-menu-app",
+    title: "UCSC Menu App",
+    description: "Dining Hall app for UC Santa Cruz Students",
+    content: ucsc_menu,
+    tags: ["Flutter", "Firebase", "Google Cloud", "Go"],
+    link: "https://apps.apple.com/us/app/ucsc-menu/id1670523487?platform=iphone",
+    linkText: "App Store",
+    github: "https://github.com/nunibye/Menu-App",
+    featured: true,
+    image: ucsc_menu_appicon
+  },
+  {
     id: 1,
     slug: "snail-mail",
     title: "Snail Mail",
@@ -25,7 +38,7 @@ export const projects = [
     title: "Grocery Inventory",
     description: "Integrating barcode scanner to track home pantry items with AnyList",
     content: ucsc_menu,
-    tags: ["JavaScript", "Python", "Raspberry Pi??"],
+    tags: ["JavaScript", "Python", "Raspberry Pi"],
     github: "https://github.com/christianknab/grocery-inventory",
     featured: true,
     image: anylist_appicon
@@ -56,17 +69,5 @@ export const projects = [
     featured: true,
     image: eko_appicon
   },
-  {
-    id: 5,
-    slug: "ucsc-menu-app",
-    title: "UCSC Menu App",
-    description: "Dining Hall app for UC Santa Cruz Students",
-    content: ucsc_menu,
-    tags: ["Flutter", "Firebase", "Google Cloud", "Go"],
-    link: "https://apps.apple.com/us/app/ucsc-menu/id1670523487?platform=iphone",
-    linkText: "App Store",
-    github: "https://github.com/nunibye/Menu-App",
-    featured: true,
-    image: ucsc_menu_appicon
-  },
+  
 ];
