@@ -6,15 +6,15 @@ import Skills from '../components/home/Skills';
 import Contact from '../components/home/Contact';
 
 const Home = () => {
-  return (
-    <div>
-      <Hero />
-      <About />
-      <FeaturedProjects />
-      <Skills />
-      <Contact />
-    </div>
-  );
+	return (
+		<div>
+			<Hero />
+			<About />
+			<FeaturedProjects />
+			{/* <Skills /> */}
+			<Contact />
+		</div>
+	);
 };
 
 export default Home;
