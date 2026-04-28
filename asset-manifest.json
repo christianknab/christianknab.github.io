@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c66ca5f8.css",
+    "main.js": "/static/js/main.e0ad600d.js",
+    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/peergrader.png": "/static/media/peergrader.fc336e8f766a3db6bc1d.png",
+    "static/media/profile_image.jpeg": "/static/media/profile_image.a6c1772f55318e99b614.jpeg",
+    "static/media/beach.jpg": "/static/media/beach.987c2a1b60f58209a076.jpg",
+    "static/media/eko-messenger-appicon.png": "/static/media/eko-messenger-appicon.2cdb9782d138395f894c.png",
+    "static/media/eko_appicon.png": "/static/media/eko_appicon.dcfbdaded680f4d46a9d.png",
+    "static/media/snail_icon.png": "/static/media/snail_icon.a8ce70d3a3285071f4d7.png",
+    "static/media/app_icon.png": "/static/media/app_icon.affcf3fd614662ff5605.png",
+    "static/media/anylist_appicon.png": "/static/media/anylist_appicon.176db11bbc7a6e4167c3.png",
+    "index.html": "/index.html",
+    "main.c66ca5f8.css.map": "/static/css/main.c66ca5f8.css.map",
+    "main.e0ad600d.js.map": "/static/js/main.e0ad600d.js.map",
+    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c66ca5f8.css",
+    "static/js/main.e0ad600d.js"
+  ]
+}
